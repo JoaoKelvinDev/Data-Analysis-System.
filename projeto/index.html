@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Alunos Ativos</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center p-8 min-h-screen">
+  <h1 class="text-2xl font-bold mb-6">Filtrar Todos Os Alunos</h1>
+  
+  <input type="file" id="csvFile" accept=".csv" class="mb-4 text-black">
+  <div id="alunos" class="w-full max-w-4xl space-y-2 mt-4"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
