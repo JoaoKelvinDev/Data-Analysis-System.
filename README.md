@@ -25,3 +25,66 @@ Data Analysis System/
 ├── samples/              # Pasta para armazenamento de arquivos de exemplo
 ├── .gitignore            # Configuração de arquivos ignorados pelo Git
 └── README.md             # Documentação completa do projeto
+
+🛠️ Tecnologias Utilizadas
+Python 3.x: Linguagem principal para o backend.
+
+Pandas: Biblioteca de alta performance para manipulação e análise de dados.
+
+FPDF: Biblioteca para geração dinâmica de documentos PDF.
+
+Tkinter: Framework nativo para criação de interfaces gráficas desktop.
+
+OpenPyXL: Engine para leitura e escrita de arquivos Excel modernos.
+
+HTML5 & JavaScript: Tecnologias de front-end integradas à estrutura do projeto.
+
+🧪 Como Testar o Sistema
+O projeto já inclui um script gerador de dados para que você possa testar as funcionalidades imediatamente:
+
+Clone o repositório:
+
+Bash
+
+git clone [https://github.com/SEU_USUARIO/data-analysis-system.git](https://github.com/SEU_USUARIO/data-analysis-system.git)
+Instale as dependências necessárias:
+
+Bash
+
+pip install pandas fpdf openpyxl
+Gere a massa de dados de teste:
+
+Bash
+
+python py/gerar_testes.py
+Inicie o sistema:
+
+Bash
+
+python py/main.py
+No programa, clique em "Selecionar e Analisar Planilhas" e escolha os arquivos gerados (ex: teste_alunos_A.xlsx).
+
+📂 Organização da Saída
+Ao processar os dados, o sistema cria automaticamente o diretório de exportação:
+exportacoes/AAAA-MM-DD/
+
+relatorio_alunos.pdf (Documento formatado para impressão)
+
+todos_os_alunos.xlsx (Planilha mestre unificada)
+
+todos_os_alunos.csv (Base de dados leve para sistemas terceiros)
+
+Desenvolvido por [Seu Nome] Desenvolvedor focado em automação de processos e análise de dados.
+
+LinkedIn | E-mail
+
+
+---
+
+### 💡 Dica Extra:
+1. Crie o arquivo chamado `README.md` na pasta raiz do seu projeto.
+2. Abra o arquivo com o Bloco de Notas, VS Code ou qualquer editor.
+3. Cole o conteúdo acima.
+4. Salve e faça o seu `git commit -m "docs: add professional readme"`.
+
+**Precisa que eu crie a descrição para o perfil do seu LinkedIn sobre esse projeto também?**
