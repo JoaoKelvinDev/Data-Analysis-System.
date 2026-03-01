@@ -74,17 +74,9 @@ todos_os_alunos.xlsx (Planilha mestre unificada)
 
 todos_os_alunos.csv (Base de dados leve para sistemas terceiros)
 
-Desenvolvido por [Seu Nome] Desenvolvedor focado em automação de processos e análise de dados.
+Desenvolvido por João Kelvin Desenvolvedor focado em automação de processos e análise de dados.
 
-LinkedIn | E-mail
+https://www.linkedin.com/in/joaokelvindev | jkelvindev@gmail.com
 
 
----
-
-### 💡 Dica Extra:
-1. Crie o arquivo chamado `README.md` na pasta raiz do seu projeto.
-2. Abra o arquivo com o Bloco de Notas, VS Code ou qualquer editor.
-3. Cole o conteúdo acima.
-4. Salve e faça o seu `git commit -m "docs: add professional readme"`.
-
-**Precisa que eu crie a descrição para o perfil do seu LinkedIn sobre esse projeto também?**
+ 
